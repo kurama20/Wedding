@@ -36,6 +36,11 @@ body {
 .hero h2 {
   font-family: "Sacramento", cursive;
   font-size: 4rem;
+  font-weight: bold;
+  /* Memberikan ketebalan outline tipis */
+  -webkit-text-stroke: #ffffff; 
+  /* Memberikan bayangan hitam tipis agar teks lebih tegas dan terbaca */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero h4 {
@@ -544,7 +549,7 @@ footer li {
   }
   .home {
     background-position: 30% center;
-    padding-top: 32rem;
+    padding-top: 31rem;
   }
   .home h2 {
     margin-top: 10rem;
